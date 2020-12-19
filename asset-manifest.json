@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.280b6dca.chunk.css",
+    "main.js": "/static/js/main.c65463ae.chunk.js",
+    "main.js.map": "/static/js/main.c65463ae.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.b2bf887a.js",
+    "runtime-main.js.map": "/static/js/runtime-main.b2bf887a.js.map",
+    "static/css/2.b05b47f5.chunk.css": "/static/css/2.b05b47f5.chunk.css",
+    "static/js/2.8a7b003f.chunk.js": "/static/js/2.8a7b003f.chunk.js",
+    "static/js/2.8a7b003f.chunk.js.map": "/static/js/2.8a7b003f.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.b05b47f5.chunk.css.map": "/static/css/2.b05b47f5.chunk.css.map",
+    "static/css/main.280b6dca.chunk.css.map": "/static/css/main.280b6dca.chunk.css.map",
+    "static/js/2.8a7b003f.chunk.js.LICENSE.txt": "/static/js/2.8a7b003f.chunk.js.LICENSE.txt",
+    "static/media/style.css": "/static/media/layer.accc5245.png",
+    "static/media/circle-cropped.dfb1dbc8.png": "/static/media/circle-cropped.dfb1dbc8.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b2bf887a.js",
+    "static/css/2.b05b47f5.chunk.css",
+    "static/js/2.8a7b003f.chunk.js",
+    "static/css/main.280b6dca.chunk.css",
+    "static/js/main.c65463ae.chunk.js"
+  ]
+}
