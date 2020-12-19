@@ -1,3 +1,4 @@
+@import '../../../node_modules/bootstrap/dist/css/bootstrap.min.css';
 /*-----------------------------------------------------------
     Theme Name: Cabe
     Theme URI: http://themevisual.com/source/cabe
@@ -107,6 +108,7 @@ blockquote p {line-height: 1.6;}
 .line-link:after {height: 40px;background-color: #111; width: 2px; position: absolute; bottom: -60px; content: ''; position: absolute; left:95px; }
 .has-animation {opacity: 0;-webkit-transition:  transform 1s cubic-bezier(0.165, 0.84, 0.44, 1) 0.15s, opacity 1s cubic-bezier(0.165, 0.84, 0.44, 1) 0.15s;transition: transform 1s cubic-bezier(0.165, 0.84, 0.44, 1) 0.15s, opacity 1s cubic-bezier(0.165, 0.84, 0.44, 1) 0.15s; -webkit-transition:translateY(80px);transform: translateY(80px);}
 .has-animation.animate-in {opacity: 1;-webkit-transition:translateY(0px);transform: translateY(0px);}
+.has-animation.animate-in a{ text-decoration: none; color: inherit;}
 .posttext-stroke {   text-stroke: 1px #000;    -webkit-text-stroke: 1px #000; -webkit-text-fill-color: transparent; font-weight: 500; font-size: 30px; line-height:48px; display: inline-block; position: relative; }
 .posttext-stroke:after { -webkit-text-fill-color: #333;   position: absolute;    top: 0;    left: 0;    font-size: 30px; content: attr(data-title); clip-path: inset(0 0 0 0);-webkit-clip-path: inset(0 0 0 0);-webkit-transition: 1s;-moz-transition: 1s;transition: 1s;}
 .posttext-stroke:hover:after {clip-path: inset(0 0 0 100%);    -webkit-clip-path: inset(0 0 0 100%); -webkit-text-fill-color: #333; }
@@ -154,7 +156,7 @@ li {font-size: 13px;font-weight: 400;line-height: 30px;}
 /*-----------------------------------------------------------
     4. Top Header
 -------------------------------------------------------------*/
-.top-header h1 {font-size: 70px; line-height: 80px; color: #000; font-weight: bold; margin-bottom: 20px; margin-top: 25px; }
+.top-header h1 {font-size: 50px; line-height: 80px; color: #000; font-weight: bold; margin-bottom: 20px; margin-top: 25px; }
 .top-header p { font-size: 32px; color: #000; font-weight: 300; line-height: 48px; margin-bottom: 10px;   }
 .top-header p b {font-weight: 700; }
 .top-header h1.title-one { font-size: 36px;color: #333;font-weight: 300;line-height: 52px;letter-spacing: 0px; margin-top: 0; margin-bottom: 20px; }
@@ -1473,3 +1475,6 @@ button.lar {cursor: pointer; background-color: #111; color: #fff; font-size: 14p
     .popular-blog-2.mb75 {width: 100%; float: left;} 
 
 }
+.user-info {padding: 0 15% !important;}
+/* .PrivateTabIndicator-colorPrimary-3{ background-color: #75a6b2 !important; }
+.MuiTab-textColorPrimary.Mui-selected{ color: #75a6b2 !important;} */

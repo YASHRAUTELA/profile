@@ -4,9 +4,6 @@ function Footer() {
             <div className="container">
                 <div className="row">
                     <div className="col-lg-3 col-md-4 widget">
-                        {/* <a href="https://yashrautela.github.io/profile/" className="logo"><img src="./Cabe - Minimal and Personal Blog Template_files/logo-3.png" alt="logo" /></a> */}
-                    </div>
-                    <div className="col-lg-3 col-md-4 widget">
                         <ul className="widget-link">
                             <li><a href="https://yashrautela.github.io/profile/">Blog</a></li>
                             <li><a href="https://yashrautela.github.io/profile/">About</a></li>
