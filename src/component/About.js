@@ -37,6 +37,10 @@ const useStyles = makeStyles((theme) => ({
         marginLeft: 10
     }
 }));
+
+const getAge = (date) => {
+    return Math.floor(((new Date()).getTime() - (new Date(date)).getTime())/(1000*60*60*24*365.25))
+}
 function About() {
     const classes = useStyles();
     return (
@@ -44,24 +48,24 @@ function About() {
             <Grid container item xs={12} sm={4} className={classes.bgFirst} spacing={2}>
                 <Grid container item xs={12}>
                     <Grid item xs={6} sm={5}><span className={classes.heading}>age</span></Grid>
-                    <Grid item xs={6} sm={7}><span>24</span></Grid>
+                    <Grid item xs={6} sm={7}><span>{getAge('June 30, 1996')}</span></Grid>
                 </Grid>
                 <Grid container item xs={12}>
                     <Grid item xs={6} sm={5}><span className={classes.heading}>Education</span></Grid>
-                    <Grid item xs={6} sm={7}><span>MCA from Uttarakhand Technical University.</span></Grid>
+                    <Grid item xs={6} sm={7}><span>Master of Computer Application (Uttarakhand Technical University).</span></Grid>
                 </Grid>
                 <Grid container item xs={12}>
                     <Grid item xs={6} sm={5}><span className={classes.heading}>Short Bio</span></Grid>
-                    <Grid item xs={6} sm={7}><span>Unmarried, Calm Nature, Sports-person, Dedicated toward work, 3+ years industrial experience, Keen to learn trending technologies and open for new ideas and innovations.</span></Grid>
+                    <Grid item xs={6} sm={7}><span>I am a Full-Stack Web Developer. Having {getAge('Jan 22, 2018')}+ years industrial experience. Keen to learn trending web/cloud technologies. Always open for new ideas and innovations.</span></Grid>
                 </Grid>
             </Grid>
             <Grid container item xs={12} sm={8} className={classes.bgSecond} spacing={1}>
                 <Grid container item xs={12}>
                     <Grid item xs={12}><span className={classes.heading}>Technologies</span></Grid>
                     <Grid item xs={12} className={classes.subItems}><strong>Frontend:</strong>&nbsp; Angular, ReactJS</Grid>
-                    <Grid item xs={12} className={classes.subItems}><strong>Backend:</strong>&nbsp; NodeJS, Express JS, Koa JS, Laravel(PHP Framework), Python</Grid>
+                    <Grid item xs={12} className={classes.subItems}><strong>Backend:</strong>&nbsp; NodeJS, Express JS, Koa JS, GraphQL, Python (Pandas, Numpy)</Grid>
                     <Grid item xs={12} className={classes.subItems}><strong>Database:</strong>&nbsp; MongoDB, MySQL, PostgreSQL</Grid>
-                    <Grid item xs={12} className={classes.subItems}><strong>Cloud:</strong>&nbsp; AWS (EC2, S3, Lightsail), Microsoft Azure</Grid>
+                    <Grid item xs={12} className={classes.subItems}><strong>Cloud:</strong>&nbsp; AWS (EC2, LightSail, S3, Lambda), Azure, Kubernetes, Docker, Serverless</Grid>
                     <Grid item xs={12} className={classes.subItems}><strong>OS:</strong>&nbsp; Windows, Linux(Ubuntu), MacOS</Grid>
                     <Grid item xs={12} className={classes.subItems}><strong>Other skills:</strong>&nbsp; GraphQL, D3, Web Hosting, Domain Pointing, SSL Certificate Installation</Grid>
                 </Grid>
